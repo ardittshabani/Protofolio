@@ -11,3 +11,342 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#top-div{
+  width: 100%;
+  display: flex;
+}
+
+#logo-div{
+  width: 50%;
+}
+
+#nav-div{
+  width: 50%;
+}
+
+body{
+  background-color: #1f2937;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+  margin-right: 35px;
+  color: white;
+  font-size: large;
+}
+
+.nav-ul{
+  display: flex;
+  list-style: none;
+  justify-content: end;
+}
+
+#home{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding-bottom: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+#home img{
+  border-radius: 100%;
+}
+
+#hello-p{
+  background-color: green;
+  width: fit-content;
+  padding: 3%;
+  color: white;
+}
+
+#name-p{
+  font-size: xx-large;
+  font-weight: 400;
+  color: white;
+
+}
+
+#pers-p{
+  font-size: 22px;
+  font-family:'Times New Roman', Times, serif;
+  color: white;
+
+}
+
+#home p{
+  margin: 5px;
+}
+
+#home h1{
+  color: white;
+  font-size: -webkit-xxx-large;
+  margin-top: 5px;
+}
+
+#home a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  background-color: white;
+  font-size: x-large;
+  padding: 1%;
+}
+
+.personal-info {
+  display: flex;
+  color: white;
+  margin: 8px;
+}
+
+.personal-info img{
+  width: 20px;
+  height: 20px;
+  margin-top: 7px;
+  margin-right: 5px;
+}
+
+.p-p {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
+#body-div{
+  padding: 2%;
+}
+
+footer{
+  width: 100%;
+  color: white;
+  background-color: #131c29;
+  text-align: center;
+}
+
+footer div{
+  display: flex;
+  justify-content: center;
+}
+
+footer img{
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+#about {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#aboutme{
+  display: flex;
+  margin: 0px;
+  padding-bottom: 0px;
+}
+
+#aboutme div{
+  width: 50%;
+  color: white;
+  padding-left: 10%;
+  margin-top: 5%;
+}
+
+#aboutme h1{
+  font-size: 40px;
+}
+
+#viti{
+  display: flex;
+  color: white;
+}
+
+.viti{
+  color: green;
+}
+
+.ex{
+  color: white;
+  width: 600px;
+  background-color: #3440508a;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  padding: 1%;
+}
+
+
+#experience{
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#about h1{
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
+
+#contact{
+  color: white;
+}
+
+#contact h1{
+  text-align: center;
+}
+
+#contact div{
+  display: flex;
+  justify-content: center;
+}
+
+.input-row{
+  background: #2d343e;
+  border: 1px solid #2d343e;
+  border-radius: 30px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #fff;
+  font-size: 16px;
+  height: 35px;
+  padding: 10px;
+  width: 16%;
+  font-family: 'poppins', sans-serif;
+  padding-left: 30px;
+  margin: 5px;
+}
+
+.input-body{
+  background: #2d343e;
+    border: 1px solid #2d343e;
+    border-radius: 30px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    width: 56%;
+    font-family: 'poppins', sans-serif;
+    padding-left: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    overflow-y: hidden;
+}
+
+.input-body-div{
+  height: 140px;
+  margin: 10px;
+}
+
+#contact h1{
+  font-size: xx-large;
+}
+
+#contact button{
+  background-color: rgba(61, 214, 61, 0.49);
+  border-radius: 30px;
+  padding: 15px;
+  color: white;
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#skills ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+#skills li{
+  width: 100px;
+}
+
+#skills a{
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  border: solid 1px #fff;
+  padding: 4px;
+  width: 100px;
+}
+
+#skills {
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+}
+
+#front{
+  width: 100%;
+  display: flex;
+}
+
+#skills img{
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+}
+
+footer li{
+  list-style: none;
+  
+}
+.footer-nav a{
+  color: black;
+  margin: 3px;
+}
+
+#project{
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#project h1{
+  color: white;
+  text-align: center;
+}
+
+#projects div{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+}
+
+.project-div{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.projektet{
+  display: flex;
+  justify-content: center ;
+}
+
+.div-link{
+  margin: 1%;
+}
