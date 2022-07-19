@@ -16,9 +16,9 @@ function App() {
   return (
     <div id="main-div">
       <div id="top-div">
-  
+    
         <div id="logo-div">
-            
+            <h1 className='logo-h1'>Ardit</h1>
         </div>
         <div id="nav-div">
                 <nav>

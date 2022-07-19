@@ -12,13 +12,20 @@ code {
     monospace;
 }
 
+
 #top-div{
   width: 100%;
   display: flex;
 }
 
+.logo-h1{
+  color: white;
+}
+
 #logo-div{
   width: 50%;
+  padding-left: 5%;
+
 }
 
 #nav-div{
@@ -76,11 +83,11 @@ li {
 
 }
 
-#pers-p{
+p#pers-p{
   font-size: 22px;
   font-family:'Times New Roman', Times, serif;
   color: white;
-
+  margin: 20px;
 }
 
 #home p{
@@ -98,13 +105,19 @@ li {
   text-decoration: none;
   background-color: white;
   font-size: x-large;
-  padding: 1%;
+  padding: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  border-radius: 30px;
+  border-color: green;
+  border-style: double;
 }
 
 .personal-info {
   display: flex;
   color: white;
   margin: 8px;
+  margin-bottom: 15px;
 }
 
 .personal-info img{
@@ -146,6 +159,17 @@ footer img{
 footer a{
   text-decoration: none;
   color: white;
+  
+}
+
+footer a:hover{
+  font-size: 25px;
+  color: white;
+}
+
+footer img:hover{
+  width: 30px;
+  height: 30px;
 }
 
 #about {
@@ -339,7 +363,12 @@ footer li{
   display: flex;
   align-items: center;
   justify-content: center;
-  
+}
+
+.project-div:hover{
+  width: 220px;
+  height: 220px;
+  transition-delay: 0.2s;
 }
 
 .projektet{
